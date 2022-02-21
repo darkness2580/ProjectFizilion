@@ -26,7 +26,7 @@ from userbot.events import register
 DEF_UNAPPROVED_MSG = (
     "Hey there :)\n"
     "Please wait for my owner to read your PMs.\n"
-    "Have patience, otherwise spamming my owner pm will result in a block.\n\n\n"
+    "Have patience, otherwise spamming my owner pm will result in a block.\n\n\n")
 # =================================================================
 
 
