@@ -201,7 +201,7 @@ async def kang(args):
                 # Ensure user doesn't get spamming notifications
                 await bot.send_read_acknowledge(conv.chat_id)
                 await conv.get_response()
-                await conv.send_message("/done")
+                await conv.send_message("/publish")
                 await conv.get_response()
                 # Ensure user doesn't get spamming notifications
                 await bot.send_read_acknowledge(conv.chat_id)
@@ -417,7 +417,7 @@ async def oldkang(args):
                 # Ensure user doesn't get spamming notifications
                 await bot.send_read_acknowledge(conv.chat_id)
                 await conv.get_response()
-                await conv.send_message("/done")
+                await conv.send_message("/publish")
                 await conv.get_response()
                 # Ensure user doesn't get spamming notifications
                 await bot.send_read_acknowledge(conv.chat_id)
@@ -640,7 +640,7 @@ async def oldkang(args):
                 # Ensure user doesn't get spamming notifications
                 await bot.send_read_acknowledge(conv.chat_id)
                 await conv.get_response()
-                await conv.send_message("/done")
+                await conv.send_message("/publish")
                 await conv.get_response()
                 # Ensure user doesn't get spamming notifications
                 await bot.send_read_acknowledge(conv.chat_id)
@@ -881,7 +881,7 @@ async def k(args):
                 # Ensure user doesn't get spamming notifications
                 await bot.send_read_acknowledge(conv.chat_id)
                 await conv.get_response()
-                await conv.send_message("/done")
+                await conv.send_message("/publish")
                 await conv.get_response()
                 # Ensure user doesn't get spamming notifications
                 await bot.send_read_acknowledge(conv.chat_id)

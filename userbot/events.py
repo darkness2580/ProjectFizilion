@@ -76,6 +76,12 @@ def register(**args):
                 return
 
             try:
+                if '#noub' in check.chat.title.lower() and not (check.chat.creator or check.chat.admin_rights):
+                    return
+            except:
+                pass
+
+            try:
                 await func(check)
 
             # Thanks to @kandnub for this HACK.
@@ -98,7 +104,7 @@ def register(**args):
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
                     text = "**USERBOT ERROR REPORT**\n"
-                    link = "[Userbot Support](https://t.me/ProjectFizilion)"
+                    link = "[Userbot Support](https://t.me/CosmicUserbotChat)"
                     text += "If you want to, you can report it"
                     text += f". Head and forward this message to Support Group.\n"
                     text += "Nothing is logged except the fact of error and date\n"
